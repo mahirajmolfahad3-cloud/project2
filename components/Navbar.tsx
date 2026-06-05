@@ -72,13 +72,14 @@ export default function Navbar() {
             href="/"
             className="flex items-center gap-3"
           >
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03]">
+            <div className="h-12 w-12 overflow-hidden rounded-full border border-white/20 shadow-md">
               <Image
-                src="/icons/logo.png"
+                src="/icons/logo1.png"
                 alt="NEONE"
-                width={24}
-                height={24}
+                width={40}
+                height={40}
                 priority
+                className="h-full w-full object-cover"
               />
             </div>
 
